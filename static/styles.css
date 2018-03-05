@@ -1,0 +1,96 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3532397, 2018-02-25T20:48:55-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TTDrugs-Regular by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/regular/
+ *
+ * Webfont: TTDrugs-Thin by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/thin/
+ *
+ * Webfont: TTDrugs-Italic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/italic/
+ *
+ * Webfont: TTDrugs-LightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/light-italic/
+ *
+ * Webfont: TTDrugs-ThinItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/thin-italic/
+ *
+ * Webfont: TTDrugs-Light by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/light/
+ *
+ * Webfont: TTDrugs-BoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/bold-italic/
+ *
+ * Webfont: TTDrugs-Bold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/bold/
+ *
+ * Webfont: TTDrugs-BlackItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/black-italic/
+ *
+ * Webfont: TTDrugs-Black by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-drugs/black/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3532397
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2014 by Typetype. Designer Ivan Gladkikh, technical designer Philipp Nurullin, Olexa Volochay, Nadyr Rakhimov. All rights reserved.
+ *
+ * © 2018 MyFonts Inc
+*/
+
+@font-face {font-family: 'TTDrugs-Bold';src: url('webfonts/35E66D_7_0.eot');src: url('webfonts/35E66D_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35E66D_7_0.woff2') format('woff2'),url('webfonts/35E66D_7_0.woff') format('woff'),url('webfonts/35E66D_7_0.ttf') format('truetype');}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Section {
+    width: 100%;
+    padding: 25vh 30vw;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+
+    background-color: #101010;
+    background: radial-gradient(ellipse at center, #212121 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.Section__content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#logo {
+  background: url('wm.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+.HeroText {
+  text-align: center;
+  font-weight: bold;
+  color: #daa520;
+  margin-top: 4vh;
+  font-family: 'TTDrugs-Bold';
+  font-size: 2vw;
+  letter-spacing: 0.085em;
+}
